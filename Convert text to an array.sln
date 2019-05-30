@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert text to an array", "Convert text to an array\Convert text to an array.csproj", "{2981AB05-7C20-44D5-8F43-02296644DE45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2981AB05-7C20-44D5-8F43-02296644DE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2981AB05-7C20-44D5-8F43-02296644DE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2981AB05-7C20-44D5-8F43-02296644DE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2981AB05-7C20-44D5-8F43-02296644DE45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F49645CC-BC44-484A-A263-E75B9C74BDD6}
+	EndGlobalSection
+EndGlobal
