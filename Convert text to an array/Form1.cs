@@ -28,12 +28,26 @@ namespace Convert_text_to_an_array
             while (inputText.Length > x-1)
             {
 
-                outputText = outputText + "["+ getCharSafe(inputText.ToCharArray(), x)+
-                    ", " + getCharSafe(inputText.ToCharArray(), x +1) +
-                    ", " + getCharSafe(inputText.ToCharArray(), x +2) +
-                    ", " + getCharSafe(inputText.ToCharArray(), x +3) + "],\n";
+                outputText = outputText + "[" + getCharSafe(inputText.ToCharArray(), x) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 1) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 2) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 3) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 4) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 5) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 6) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 7) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 8) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 9) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 10) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 11) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 12) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 13) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 14) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 15) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 16) +
+                    ", " + getCharSafe(inputText.ToCharArray(), x + 17) + "],\n";
 
-                x = x + 4;
+                x = x + 17;
                 i++;
             }
             richTextBox2.Text = outputText;

@@ -41,7 +41,7 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(776, 206);
             this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "abcdefghijklmnopqrstuvwxyz";
+            this.richTextBox1.Text = "";
             // 
             // convertButton
             // 
@@ -70,6 +70,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(800, 591);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.convertButton);
